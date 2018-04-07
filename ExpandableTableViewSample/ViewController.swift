@@ -14,10 +14,10 @@ struct CellDetails {
     var sectionData = [String]()
     
     static func getSampleTableDetails() -> [CellDetails] {
-        return [CellDetails(isOpened: false, sectionTitle: "Title1", sectionData: ["Cell1", "Cell2", "Cell3"]),
-                  CellDetails(isOpened: false, sectionTitle: "Title1", sectionData: ["Cell1", "Cell2", "Cell3"]),
-                  CellDetails(isOpened: false, sectionTitle: "Title1", sectionData: ["Cell1", "Cell2", "Cell3"]),
-                  CellDetails(isOpened: true, sectionTitle: "Title1", sectionData: ["Cell1", "Cell2", "Cell3"])]
+        return [CellDetails(isOpened: false, sectionTitle: "Title1", sectionData: ["Cell1.1", "Cell1.2", "Cell1.3"]),
+                  CellDetails(isOpened: false, sectionTitle: "Title2", sectionData: ["Cell2.1", "Cell2.2", "Cell2.3"]),
+                  CellDetails(isOpened: false, sectionTitle: "Title3", sectionData: ["Cell3.1", "Cell3.2", "Cell3.3"]),
+                  CellDetails(isOpened: true, sectionTitle: "Title4", sectionData: ["Cell4.1", "Cell4.2", "Cell4.3"])]
         
     }
     
